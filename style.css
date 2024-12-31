@@ -1,0 +1,569 @@
+*{
+    margin: 10px;
+    
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+h2{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.start{
+    text-align: center;
+    background-color: #F6F1E9;
+}
+li{
+    display: inline-flex;
+    background-color: yellow;
+}
+#body{
+    background-color: yellow;
+}
+
+.container{
+    flex-wrap: wrap;
+}
+.flag1{
+    background-color: skyblue;
+    width: 200px;
+    height: 150px;
+    position: relative;
+}
+.flag1 > div{
+    background-color: gold;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+
+}
+h4{
+    font-size: 20px;
+    text-align: left;
+}
+
+.flag2{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: white;
+}
+
+.flag2 > div {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: maroon;
+    position: absolute;
+    top: 15%;
+    left: 24%;
+}
+
+
+.title1{
+  position: absolute;
+  left: 3%;
+  top: 40%;
+}
+
+.title2{
+    position: absolute;
+    left: 18%;
+    top: 40%;
+}
+
+.inline{
+    display: flex;
+}
+
+.flag3{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #005bbb;
+}
+.flag3 > div{
+    width: 200px;
+    height: 75px;
+    background-color: #fdd300;
+    position: relative;
+    top: 43.5%;
+    left: 0.1%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+.title3{
+    position: absolute;
+    left: 34%;
+    top: 40%;
+}
+
+.flag4{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #9e3039;
+}
+.flag4 > div{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    top: 33%;
+    left: 0.2%;
+    margin-left: 0%;
+}
+.title4{
+    position: absolute;
+    left: 49%;
+    top: 40%;
+}
+.flag5{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #038751;
+
+}
+.flag5 > div{
+    width: 66.66px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: 0%;
+    left: 27%;
+    margin-top: 0%;
+}
+.title5{
+    position: absolute;
+    left: 64.5%;
+    top: 40%;
+}
+
+.flag6{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #d91123;
+
+}
+.flag6 > div{
+    width: 66.66px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: 0%;
+    left: 27%;
+    margin-top: 0%;
+}
+.title6{
+    position: absolute;
+    left: 80%;
+    top: 40%;
+}
+
+.flag7{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: white;
+}
+.flag7 > div{
+    width: 200px;
+    height: 75px;
+    background-color: #dc143c;
+    position: relative;
+    top: 43%;
+    left: 0.2%;
+    margin-left: 0%;
+}
+.title7{
+    position: absolute;
+    left: 3%;
+    top: 70%;
+}
+.flag8{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #dc143c;
+}
+.flag8 > div{
+    width: 200px;
+    height: 75px;
+    background-color: white;
+    position: relative;
+    top: 43%;
+    left: 0.2%;
+    margin-left: 0%;
+}
+.title8{
+    position: absolute;
+    left: 18%;
+    top: 70%;
+}
+.flag9{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #dc143c;
+}
+.flag9 > div{
+    width: 200px;
+    height: 75px;
+    background-color: white;
+    position: relative;
+    top: 43%;
+    left: 0.2%;
+    margin-left: 0%;
+}
+.title9{
+    position: absolute;
+    left: 34%;
+    top: 70%;
+}
+
+.flag10{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #ed2939;
+}
+.flag10 > div{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 28%;
+    left: 0.2%;
+    margin-left: 0%;
+}
+.title10{
+    position: absolute;
+    left: 49%;
+    top: 70%;
+}
+.flag11{
+    background-color: #006a4e;
+    width: 200px;
+    height: 150px;
+    position: relative;
+}
+.flag11 > div{
+    background-color: #f42b41;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 15%;
+
+}
+.title11{
+    position: absolute;
+    left: 64.5%;
+    top: 70%;
+}
+
+.flag12{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #01abc9;
+    
+}
+.flag12 > div{
+    
+    height: 56.66px;
+    background-color: #fae043;
+    position: relative;
+    top: 28%;
+    left: 0.2%;
+    margin-left: 0%;
+      
+}
+.flag12 > div >div{
+    position: absolute;
+  border: 75px solid transparent;
+  border-left-color: #231f20;
+  top: -109.2%;
+    left: -5.2%;
+    
+  
+}
+.title12{
+    position: absolute;
+    left: 80%;
+    top: 70%;
+}
+
+.flag13{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #ce1126;
+    
+}
+.flag13 > div{
+    width: 50px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+.triangle131{
+    position: absolute;
+  top: -25px;
+  left: 55px;
+  background-color: rgb(255 255 255);
+  width: 30px;
+  height: 60px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: rotate(-270deg);
+}
+.triangle131:nth-child(2) {
+    top: 6px;
+  }
+  .triangle131:nth-child(3) {
+    top: 35px;
+  }
+  .triangle131:nth-child(4) {
+    top: 65px;
+  }
+  .triangle131:nth-child(5) {
+    top: 95px;
+  }
+
+  .title13{
+    position: absolute;
+    left: -7%;
+    top: -30%;
+}
+
+.flag14{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: white;
+}
+.flag14 > div{
+    width: 200px;
+    height: 40px;
+    background-color: #0a3581;
+    position: relative;
+    top: 28%;
+    left: 0.2%;
+    margin-left: 0%;
+}
+.flag14 > div > div{
+    width: 40px;
+    height: 150px;
+    background-color: #0a3581;
+    position: relative;
+    top: -130%;
+    left: 30%;
+    margin-left: 0%;
+}
+
+.title14{
+    position: absolute;
+    left: -8%;
+    top: -30%;
+}
+
+
+.flag15{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #125293;
+}
+.flag15 > div{
+    width: 200px;
+    height: 40px;
+    background-color: #fccb03;
+    position: relative;
+    top: 28%;
+    left: 0.2%;
+    margin-left: 0%;
+}
+.flag15 > div > div{
+    width: 40px;
+    height: 150px;
+    background-color: #fccb03;
+    position: relative;
+    top: -130%;
+    left: 30%;
+    margin-left: 0%;
+}
+
+.title15{
+    position: absolute;
+    left: -8%;
+    top: -30%;
+}
+
+.flag16{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: black;
+}
+.flag16 > div{
+    width: 66.66px;
+    height: 150px;
+    background-color: #fccb03;
+    position: relative;
+    top: 0%;
+    left: 33.9%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.flag16 > div >div{
+    width: 66.66px;
+    height: 150px;
+    background-color: #ed293a;
+    position: relative;
+    top: 0%;
+    left: 100.2%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.title16{
+    position: absolute;
+    left: -8%;
+    top: -30%;
+}
+
+.flag17{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #d3281c;
+}
+.flag17 > div{
+    width: 40px;
+    height: 90px;
+    background-color: white;
+    position: relative;
+    top: 13%;
+    left: 36.3%;
+    margin-left: 0%;
+}
+.flag17 > div > div{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    top: 29.3%;
+    right: 65%;
+    margin-left: 0%;
+}
+.title17{
+    position: absolute;
+    left: -12%;
+    top: -30%;
+}
+
+
+.flag18{
+    margin-left: 60px;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #0c5eaf;
+}
+
+.square181{
+    position: absolute;
+  background-color: rgb(255 255 255);
+  width: 120px;
+  height: 15px;
+  top: 3%;
+  left: 40%;
+  margin-left: 0%;
+}
+
+.square1811{
+    position: absolute;
+  background-color: rgb(255 255 255);
+  width: 15px;
+  height: 80px;
+  top: -110%;
+  left: -50%;
+  margin-top: 0%;
+}
+.square1811:nth-child(2){
+    width: 80px;
+    height: 15px;
+    position: absolute;
+  background-color: rgb(255 255 255);
+  top: 120%;
+  left: -69%;
+  margin-left: 0%;
+    
+
+}
+
+.square181:nth-child(2) {
+    top: 25%;
+    width: 120px;
+    left: 40%;
+  }
+  .square181:nth-child(3) {
+    top: 47%;
+    width: 200px;
+    left: 0%;
+  }
+  .square181:nth-child(4) {
+    top: 70%;
+    width: 200px;
+    left: 0%;
+  }
+
+.title18{
+    position: absolute;
+    left: -12%;
+    top: -30%;
+}
+
+
+
+.flag19{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: #ce1226;
+}
+.flag19 > div{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 34%;
+    left: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.flag19 > div >div{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    top: 100%;
+    left: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.title19{
+    position: absolute;
+    left: -12%;
+    top: -30%;
+}
